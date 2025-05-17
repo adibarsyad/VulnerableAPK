@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp" />
+
+    <EditText
+        android:id="@+id/urlInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:text="@string/load_url_in_wb"
+        android:minHeight="48dp"
+        tools:ignore="LabelFor,TextFields,VisualLintTextFieldSize" />
+
+    <Button
+        android:id="@+id/loadWebView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/load_url_in_wb"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/triggerDeepLink"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/trigger_deep_link"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/sendBroadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send_broadcast"
+        tools:ignore="VisualLintButtonSize" />
+</LinearLayout>

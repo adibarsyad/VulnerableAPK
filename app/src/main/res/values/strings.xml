@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="trigger_deep_link">Trigger Deep Link</string>
+    <string name="send_broadcast">Send Broadcast</string>
+    <string name="load_url_in_wb">Load URL in WebView</string>
+    <string name="enter_url_to_load_in_wb">Enter URL to load in WebView</string>
+</resources>
